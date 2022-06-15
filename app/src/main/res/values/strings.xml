@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Slot Machine</string>
+    <string name="ganancias">Ganancias:</string>
+    <string name="jugar">JUGAR</string>
+</resources>

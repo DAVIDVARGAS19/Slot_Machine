@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeContainer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#171616">
+
+    <TextView
+        android:id="@+id/mainActivityTvGananciasAux"
+        android:layout_width="110dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ganancias"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/bg_panel"
+
+        />
+
+    <TextView
+        android:id="@+id/mainActivityTvGanancias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/mainActivityTvGananciasAux"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        />
+
+    <ImageView
+        android:id="@+id/mainActivitiVacio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/mainActivityTvGanancias" />
+
+    <LinearLayout
+        android:id="@+id/mainActivityLl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/mainActivitiVacio"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mainActivitySlot1"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/mainActivitySlot2"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/mainActivitySlot3"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mainActivitiVacio1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/mainActivityLl" />
+
+    <Button
+        android:id="@+id/mainActivityBtJugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainActivitiVacio1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/jugar"
+
+        />
+
+</RelativeLayout>

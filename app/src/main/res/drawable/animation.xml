@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/ic_cereza"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_dado"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_gran_diamante"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_herradura_grande"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_poker"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_maquina_de_casino"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_trebol_grande"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_cereza"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_trebol_grande"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_dado"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_herradura_grande"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_poker"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_maquina_de_casino"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/ic_gran_diamante"
+        android:duration="100" />
+
+</animation-list>
